@@ -41,12 +41,15 @@
         ],
         "post-update-cmd": [
             "@test"
-        ],
-        "scripts-descriptions": {
-            "test": "Executa os testes",
-            "cs": "Verifica se o código está de acordo com o padrão PSR12",
-            "phan": "Analisa o código em busca de erros",
-            "check": "Executa todos os scripts de verificação. Phan, PHPCS e PHPUnit"
-        }
-    }
+        ]
+    },
+    "scripts-descriptions": {
+        "test": "Executa os testes",
+        "cs": "Verifica se o código está de acordo com o padrão PSR12",
+        "phan": "Analisa o código em busca de erros",
+        "check": "Executa todos os scripts de verificação. Phan, PHPCS e PHPUnit"
+    },
+    "bin": [
+        "get-courses.php"
+    ]
 }
